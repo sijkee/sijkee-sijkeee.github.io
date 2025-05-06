@@ -1,3 +1,11 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body 
 /* Стили для фото профиля */
 .profile-pic {
   width: 140px;
@@ -25,14 +33,7 @@
     margin-bottom: 0.75rem;
   }
 }
-/* Базовые стили */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
+{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
   color: #333;
